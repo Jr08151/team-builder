@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
 import teamData from './team-data.js';
-import Team from './components/Team.js';
+import Team from './Componets/Team.js';
 import {Route} from 'react-router-dom';
-import TeamList from './components/TeamList.js';
+import TeamList from './Componets/TeamList.js';
 
 function App() {
   const [teamState, setTeamState] = useState(teamData);
